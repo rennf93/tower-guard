@@ -1,4 +1,4 @@
-# tower-guard
+# tower-guard-rs
 
 Application-layer security middleware for [tower](https://github.com/tower-rs/tower)-based services. Part of the [guard ecosystem](https://github.com/rennf93).
 
