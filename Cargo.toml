@@ -1,6 +1,13 @@
 [package]
 name = "tower-guard"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
+description = "Application-layer security middleware for tower-based services. Part of the guard ecosystem. WIP."
+license = "MIT"
+repository = "https://github.com/rennf93/guard-core-rs"
+readme = "README.md"
+keywords = ["security", "middleware", "api"]
+categories = ["web-programming"]
 
-[dependencies]
+[lib]
+name = "tower_guard"
