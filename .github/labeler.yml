@@ -1,56 +1,12 @@
-"area: middleware":
+"area: lib":
   - changed-files:
       - any-glob-to-any-file:
-          - src/lib.rs
-          - src/middleware.rs
-          - src/middleware/**
-          - tower-guard-rs/src/lib.rs
-          - tower-guard-rs/src/middleware.rs
-          - tower-guard-rs/src/middleware/**
-
-"area: layer":
-  - changed-files:
-      - any-glob-to-any-file:
-          - src/layer.rs
-          - src/layer/**
-          - tower-guard-rs/src/layer.rs
-          - tower-guard-rs/src/layer/**
-
-"area: service":
-  - changed-files:
-      - any-glob-to-any-file:
-          - src/service.rs
-          - src/service/**
-          - tower-guard-rs/src/service.rs
-          - tower-guard-rs/src/service/**
-
-"area: extractors":
-  - changed-files:
-      - any-glob-to-any-file:
-          - src/extractors.rs
-          - src/extractors/**
-          - tower-guard-rs/src/extractors.rs
-          - tower-guard-rs/src/extractors/**
-
-"area: types":
-  - changed-files:
-      - any-glob-to-any-file:
-          - src/types.rs
-          - src/types/**
-          - tower-guard-rs/src/types.rs
-          - tower-guard-rs/src/types/**
+          - src/**
 
 tests:
   - changed-files:
       - any-glob-to-any-file:
           - tests/**
-          - tower-guard-rs/tests/**
-
-examples:
-  - changed-files:
-      - any-glob-to-any-file:
-          - examples/**
-          - tower-guard-rs/examples/**
 
 documentation:
   - changed-files:
@@ -73,8 +29,6 @@ build:
   - changed-files:
       - any-glob-to-any-file:
           - Makefile
-          - Dockerfile
-          - compose.yml
           - rustfmt.toml
           - deny.toml
 
@@ -83,4 +37,3 @@ dependencies:
       - any-glob-to-any-file:
           - Cargo.toml
           - Cargo.lock
-          - tower-guard-rs/Cargo.toml
